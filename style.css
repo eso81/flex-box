@@ -1,6 +1,36 @@
 .flex-container{
-    display: flex;/*por padrão é o eixo horizontal*/
-    flex-direction: column;
+    /*display: flex;por padrão é o eixo horizontal
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
 }
+
+.f-1{
+    width: 150px;
+}
+.f-2{
+    flex: 1;
+}
+
+
+/*.flex-item{
+    /*flex-grow: 1;/*ocupar o espaço total
+
+}
+.f-1{
+    flex-grow: 0;
+    background-color: blueviolet;
+}
+.f-2{
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: brown;
+}
+.f-3{
+    flex-grow: 2;
+    flex-basis: 0;
+    background-color: cadetblue;
+}*/
